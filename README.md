@@ -1,4 +1,4 @@
-dockcer-apache-php5.6
+ubuntu-apache-php56
 ===================================
 
 A Docker image based on Ubuntu 14.04, serving PHP 5.6 running as Apache Module. Useful for Web developers in need for a fixed PHP version.
