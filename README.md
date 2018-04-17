@@ -7,7 +7,7 @@ Usage
 ------
 
 ```
-$ docker run -d -P krlnwll/dockcer-apache-php5.6
+$ docker run -d -P krlnwll/ubuntu-apache-php56
 ```
 
 With all the options:
@@ -15,7 +15,7 @@ With all the options:
 ```bash
 $ docker run -d -p 8080:80 \
     -v /home/user/webroot:/var/www \
-    krlnwll/dockcer-apache-php5.6
+    krlnwll/ubuntu-apache-php56
 ```
 
 * `-v [local path]:/var/www` maps the container's webroot to a local path
